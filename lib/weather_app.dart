@@ -9,6 +9,7 @@ class WeatherApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final int a = 0;
     return ChangeNotifierProvider(
       create: (context) => WeatherProvider(),
       child: MaterialApp(
